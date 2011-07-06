@@ -15,7 +15,7 @@ var MessageBox = new Class({
   options: {
     delay: 5000,
     wrapper: document.id('messages-box'),
-    container: document.id('header-inner'),
+    container: document.id(document.body),
     position: 'tr',
     autoClose: true
   },
