@@ -1,0 +1,7 @@
+name:  MessageBox
+author:  Lieuwe Jan Eilander
+current:  0.1
+category:  Interface
+tags:  [messagebox,alert]
+sources:
+  - "Source/Messagebox.js"
