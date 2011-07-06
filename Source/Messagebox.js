@@ -28,7 +28,7 @@ var MessageBox = new Class({
     this.wrapper.inject(this.options.container);
   },
 
-  open: function(titlePlain, body, imageUrl, callback) {
+  open: function(body, titlePlain, imageUrl, callback) {
     this.wrapper.set('class', this.options.position);
     var image = '';
     var title = '';
