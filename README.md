@@ -23,15 +23,15 @@ Options
 
 The default behavior of the MessageBox can be altered by setting the following options:
 
-**delay**: (default: 5000) Set the delay in miliseconds before the messagebox is auto closed 
+**delay**: (default: 5000) Set the delay in milliseconds before the messagebox is auto closed 
 
-**wrapper**: (default: document.id('messages-box') The DOM element where all messages will be placed in
+**wrapper**: (default: document.id('messages-box')) The DOM element where all messages will be placed in
 
-**container**: (default: documen.id(document.body)) The DOM element where **wrapper** is placed in 
+**container**: (default: document.id(document.body)) The DOM element where **wrapper** is placed in 
 
 **position**: (default: tr) Position of the alerts (can be: tr = top-right, tl = top-left, br = bottom-right, bl = bottom-left)
 
-**autoClose**: (default: true) Autoclose the messagebox after the delay or not
+**autoClose**: (default: true) Autoclose the messagebox after the delay
 
 CSS Styling
 -----------
