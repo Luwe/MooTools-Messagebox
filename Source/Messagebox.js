@@ -32,12 +32,10 @@ var MessageBox = new Class({
     this.wrapper.set('class', this.options.position);
     var image = '';
     var title = '';
-    if (imageUrl)
-    {
+    if (imageUrl) {
       image = '<div class="msg-image"><img src="' + imageUrl + '" alt="" /></div>';
     }
-    if (titlePlain)
-    {
+    if (titlePlain) {
       title = '<div class="msg-message"><span class="msg-title">' + titlePlain + '</span>';
     }
     var box = new Element('div', {
@@ -65,8 +63,7 @@ var MessageBox = new Class({
     box.store('fx', fx);
     fx.start('opacity', 1);
 
-    if (this.options.autoClose === true)
-    {
+    if (this.options.autoClose === true) {
       this.close.delay(this.options.delay, this, box);
     }
   },
