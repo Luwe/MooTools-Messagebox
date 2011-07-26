@@ -47,8 +47,7 @@ var MessageBox = new Class({
     });
 
     box.addEvent('click', function(){
-      if (callback)
-      {
+      if (callback) {
         callback.apply();
       }
       this.close(box);
